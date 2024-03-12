@@ -14,7 +14,7 @@ A simple chatbot application built using Flask, designed to respond to user mess
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/chatbot.git
+   git clone https://github.com/KanmegneTabouguie/chatbotcasino.git
    cd chatbot
    ```
 
@@ -28,12 +28,11 @@ A simple chatbot application built using Flask, designed to respond to user mess
    ```
 
    Install required packages:
-
    ```bash
-   pip install -r requirements.txt
+   pip install Flask
+   pip install fuzzywuzzy
    ```
-
-3. **Run the Application**
+4. **Run the Application**
 
    ```bash
    python app.py
