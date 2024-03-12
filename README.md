@@ -14,7 +14,7 @@ A simple chatbot application built using Flask, designed to respond to user mess
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/chatbot.git
+   git clone https://github.com/KanmegneTabouguie/chatbotcasino.git
    cd chatbot
    ```
 
