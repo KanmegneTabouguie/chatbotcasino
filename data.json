@@ -1,0 +1,204 @@
+{
+    "intents": [
+      {
+        "name": "debut_conversation",
+        "patterns": [
+          "Un moment s'il vous plaît",
+          "Un instant s'il vous plaît"
+        ],
+        "responses": [
+          "Bonjour ! Comment puis-je vous aider aujourd'hui ?"
+        ]
+      },
+      {
+        "name": "bonus_activation",
+        "patterns": [
+          "Comment activer le bonus ?",
+          "Où puis-je trouver le bonus de bienvenue ?"
+        ],
+        "responses": [
+          "Pour activer votre bonus, allez dans la section bonus de votre compte. Merci !",
+          "Le bonus de dépôt est déjà activé. Choisissez un jeu et commencez à jouer !"
+        ]
+      },
+      {
+        "name": "documents",
+        "patterns": [
+          "Où en est la vérification de mes documents ?",
+          "Pourquoi ma vérification de documents a été rejetée ?"
+        ],
+        "responses": [
+          "La vérification des documents prend habituellement de 2 à 5 jours. Soyez patient, nous faisons de notre mieux.",
+          "Votre compte sera relancé pour la vérification des documents. Merci de votre compréhension."
+        ]
+      },
+      {
+        "name": "withdrawal",
+        "patterns": [
+          "Combien de temps faut-il pour traiter un retrait ?",
+          "Quelles sont les conditions de retrait ?"
+        ],
+        "responses": [
+          "Le traitement des retraits prend de 2 à 7 jours ouvrables. Merci de patienter.",
+          "Pour effectuer un retrait, veuillez d'abord valider votre compte en téléchargeant les documents requis."
+        ]
+      },
+      {
+        "name": "closure",
+        "patterns": [
+          "Comment puis-je fermer mon compte ?",
+          "Quelle est la procédure de fermeture de compte ?"
+        ],
+        "responses": [
+          "Pour fermer votre compte, envoyez un e-mail à support@casinointense.com avec vos informations de compte et votre intention de fermer le compte."
+        ]
+      },
+      {
+        "name": "other",
+        "patterns": [
+          "Peut-on avoir plusieurs comptes ?",
+          "Quelles sont les règles d'affiliation ?"
+        ],
+        "responses": [
+          "Il est strictement interdit d'avoir 2 comptes dans notre casino. Votre compte sera signalé pour suppression.",
+          "Pour plus d'informations sur l'affiliation, veuillez consulter la section affiliée sur notre site."
+        ]
+      },
+      {
+        "name": "end_conversation",
+        "patterns": [
+          "Merci pour votre aide",
+          "C'est tout pour moi, merci"
+        ],
+        "responses": [
+          "Merci de nous avoir contactés ! N'hésitez pas à revenir si vous avez d'autres questions."
+        ]
+      },
+      {
+        "name": "default",
+        "patterns": [
+          "Je ne comprends pas",
+          "Je veux parler à un responsable"
+        ],
+        "responses": [
+          "Je m'excuse, je vais me renseigner et revenir vers vous."
+        ]
+      },
+      {
+        "name": "gratitude",
+        "patterns": [
+          "Merci beaucoup",
+          "Vous êtes très utile"
+        ],
+        "responses": [
+          "Merci beaucoup pour vos aimables paroles. Nous sommes là pour vous aider."
+        ]
+      },
+      {
+        "name": "follow_up",
+        "patterns": [
+          "Quand puis-je m'attendre à une réponse ?",
+          "Pouvez-vous me donner plus d'informations ?"
+        ],
+        "responses": [
+          "Nous faisons de notre mieux pour répondre dans les plus brefs délais. Merci de votre patience."
+        ]
+      },
+      {
+        "name": "closing",
+        "patterns": [
+          "Au revoir",
+          "Bonne journée"
+        ],
+        "responses": [
+          "Au revoir ! N'hésitez pas à revenir si vous avez d'autres questions."
+        ]
+      },
+      {
+        "name": "bonus_denied",
+        "patterns": [
+          "Pourquoi n'ai-je pas reçu de bonus gratuit ?",
+          "Le système ne me permet pas d'obtenir un bonus gratuit."
+        ],
+        "responses": [
+          "Désolé, le système ne permet pas l'attribution d'un bonus gratuit pour le moment.",
+          "Pour un nouveau bonus gratuit, vous devez effectuer un dépôt pour l'activer."
+        ]
+      },
+      {
+        "name": "info_bonus_credited",
+        "patterns": [
+          "J'ai reçu un bonus gratuit, que puis-je en faire ?",
+          "Quels sont les détails du bonus que j'ai reçu ?"
+        ],
+        "responses": [
+          "Félicitations ! Vous avez reçu un bonus gratuit de [montant]. Profitez-en bien !",
+          "En tant que joueur fidèle, vous recevrez un bonus gratuit de [montant]. Bon jeu !"
+        ]
+      },
+      {
+        "name": "info_bonus_denied",
+        "patterns": [
+          "Pourquoi mon bonus a-t-il été refusé ?",
+          "Comment puis-je activer un bonus refusé ?"
+        ],
+        "responses": [
+          "Votre bonus a été refusé car [raison]. Veuillez effectuer un dépôt pour activer le bonus.",
+          "Le système a refusé votre bonus pour [raison]. Assurez-vous d'avoir déjà effectué le dépôt requis."
+        ]
+      },
+      {
+        "name": "declined",
+        "patterns": [
+          "Mon dépôt est en attente, que dois-je faire ?",
+          "Pourquoi mon dépôt a-t-il été refusé ?"
+        ],
+        "responses": [
+          "Votre dépôt est en attente sur notre site, veuillez patienter. Si le problème persiste, contactez le support.",
+          "Veuillez vous connecter avec le navigateur Google Chrome pour un meilleur résultat et réessayer le dépôt."
+        ]
+      },
+      {
+        "name": "deposit_method",
+        "patterns": [
+          "Quelles méthodes de dépôt puis-je utiliser ?",
+          "Y a-t-il des restrictions sur les méthodes de dépôt ?"
+        ],
+        "responses": [
+          "Vous pouvez effectuer des dépôts depuis un compte bancaire, des cartes de crédit, des portefeuilles électroniques, ou d'autres méthodes enregistrées sous votre nom."
+        ]
+      },
+      {
+        "name": "apres_depot",
+        "patterns": [
+          "Que se passe-t-il après avoir effectué un dépôt ?",
+          "Puis-je annuler un dépôt après l'avoir effectué ?"
+        ],
+        "responses": [
+          "Une fois que vous avez placé une mise, celle-ci est irrévocable. Vous ne pouvez pas annuler la transaction.",
+          "Après avoir effectué un dépôt, vous pouvez commencer à jouer. L'argent misé est non remboursable."
+        ]
+      },
+      {
+        "name": "affiliate_info",
+        "patterns": [
+          "Dites-moi plus sur le programme d'affiliation.",
+          "Quels sont les avantages du programme d'affiliation ?"
+        ],
+        "responses": [
+          "Pour plus d'informations sur l'affiliation, veuillez consulter la section Affiliation sur notre site."
+        ]
+      },
+      {
+        "name": "other_info",
+        "patterns": [
+          "Pouvez-vous me donner plus d'informations ?",
+          "Y a-t-il d'autres choses importantes à savoir ?"
+        ],
+        "responses": [
+          "N'hésitez pas à nous contacter si vous avez des questions supplémentaires. Nous sommes là pour vous aider."
+        ]
+      }
+    ]
+  }
+  

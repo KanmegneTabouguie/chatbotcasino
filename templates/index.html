@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Test</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+</head>
+<body>
+    <h1>Chatbot Test</h1>
+    <div>
+        <label for="userInput">Your message:</label>
+        <input type="text" id="userInput" placeholder="Type your message..." onkeydown="if (event.key === 'Enter') sendMessage()">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+    <div id="chatContainer" style="margin-top: 20px; border: 1px solid #ccc; padding: 10px; height: 200px; overflow-y: auto;"></div>
+
+    <script>
+        function sendMessage() {
+            var userInput = document.getElementById('userInput').value;
+            var chatContainer = document.getElementById('chatContainer');
+
+            // Display user's message
+            chatContainer.innerHTML += '<p>User: ' + userInput + '</p>';
+
+            // Send the user's message to the server
+            fetch('/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: 'user_message=' + userInput,
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Display bot's response
+                chatContainer.innerHTML += '<p>Bot: ' + data.bot_message + '</p>';
+                // Clear the input field
+                document.getElementById('userInput').value = '';
+            });
+        }
+    </script>
+</body>
+</html>
