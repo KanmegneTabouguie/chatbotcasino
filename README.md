@@ -28,13 +28,11 @@ A simple chatbot application built using Flask, designed to respond to user mess
    ```
 
    Install required packages:
-
    ```bash
-pip install Flask
-pip install fuzzywuzzy
+   pip install Flask
+   pip install fuzzywuzzy
    ```
-
-3. **Run the Application**
+4. **Run the Application**
 
    ```bash
    python app.py
