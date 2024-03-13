@@ -69,3 +69,7 @@ A simple chatbot application built using Flask, designed to respond to user mess
 Feel free to open issues or contribute to the project. Your feedback and suggestions are highly appreciated!
 
 **Happy chatting!**
+
+
+https://github.com/KanmegneTabouguie/chatbotcasino/assets/133702750/5f5fd292-b524-4a4e-a850-72c86f49527a
+
